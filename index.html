@@ -42,6 +42,14 @@ body{color:#e9e9e6;text-shadow:none}
 .pandora{background:linear-gradient(135deg,#286bd5,#17459a);color:#fff;font-size:24px}
 .tidal{background:linear-gradient(135deg,#111,#333);color:#fff;font-size:12px;border:1px solid #777}
 .deezer{background:linear-gradient(135deg,#ff5868,#a541ff,#3b62ef);color:#fff;font-size:23px}
+
+/* Sports sites logo colors */
+.sportsreference{background:linear-gradient(135deg,#253b58,#e06a32);color:#fff;font-size:18px}
+.baseballref{background:linear-gradient(135deg,#002d72,#c8102e);color:#fff;font-size:17px}
+.basketballref{background:linear-gradient(135deg,#e67e22,#8c3d12);color:#fff;font-size:13px}
+.footballref{background:linear-gradient(135deg,#173b6c,#07192e);color:#fff;font-size:15px}
+.hockeyref{background:linear-gradient(135deg,#141414,#505050);color:#fff;font-size:17px}
+.fbref{background:linear-gradient(135deg,#236b43,#103d27);color:#fff;font-size:18px}
 </style></head>
 <body class="locked">
 <div class="auth-screen" id="authScreen"><div class="auth-card"><div class="auth-brand">HOME<span>WORK</span></div><h2>Unlock your homework.</h2><p>Enter the password to open the library.</p><input class="auth-input" id="passwordInput" type="password" autocomplete="off" placeholder="Password" aria-label="Password"><button class="auth-button" id="unlockButton" type="button">Unlock</button><div class="auth-error" id="authError"></div><div class="auth-hotspot-note">For streaming apps to work connect computer to hotspot, games still work on school internet.</div></div></div>
@@ -49,7 +57,7 @@ body{color:#e9e9e6;text-shadow:none}
 <header class="topbar"><a class="brand" href="#top">HOME<span>WORK</span></a><nav class="nav"><a href="#apps">Home</a><a href="#apps">Apps</a><a href="#games">Games</a><a href="#games">New & Popular</a></nav><div class="top-actions"><input class="search-mini" id="quickSearch" placeholder="Search" aria-label="Search"></div></header>
 <section class="hero" id="top"><div class="hero-inner"><div class="eyebrow">Homework Library</div><h1>Study. Work. Write.</h1><p>Everything for your school day in one place. Find your games, study breaks, and favorite apps without leaving your Homework library.</p><div class="hero-buttons"><button class="hero-btn primary" onclick="document.getElementById('games').scrollIntoView({behavior:'smooth'})">▶ Browse Library</button><button class="hero-btn secondary" onclick="document.getElementById('apps').scrollIntoView({behavior:'smooth'})">ⓘ Explore Apps</button></div><div class="hero-hotspot-note">For streaming apps to work connect computer to hotspot, games still work on school internet.</div></div></section>
 <main>
-<section class="row" id="apps"><div class="row-head"><h2>Homework Apps & Study Breaks</h2><span class="row-note">28 apps</span></div>
+<section class="row" id="apps"><div class="row-head"><h2>Homework Apps & Study Breaks</h2><span class="row-note">34 apps</span></div>
 <div class="app-category"><h3 class="app-category-title">Movies & TV</h3><div class="apps">
 <a class="app" href="https://www.netflix.com/" target="_blank" rel="noopener"><span class="app-logo netflix">N</span><span><strong>Netflix</strong><small>Movies & shows for breaks</small></span><span class="arrow">›</span></a>
 <a class="app" href="https://www.disneyplus.com/" target="_blank" rel="noopener"><span class="app-logo disney">D+</span><span><strong>Disney+</strong><small>Shows for your study break</small></span><span class="arrow">›</span></a>
@@ -82,6 +90,12 @@ body{color:#e9e9e6;text-shadow:none}
 </div></div>
 <div class="app-category"><h3 class="app-category-title">Sports</h3><div class="apps">
 <a class="app" href="https://www.espn.com/" target="_blank" rel="noopener"><span class="app-logo espn">ESPN</span><span><strong>ESPN</strong><small>Sports & highlights</small></span><span class="arrow">›</span></a>
+<a class="app" href="https://www.sports-reference.com/" target="_blank" rel="noopener"><span class="app-logo sportsreference">SR</span><span><strong>Sports Reference</strong><small>Sports stats, scores & history</small></span><span class="arrow">›</span></a>
+<a class="app" href="https://www.baseball-reference.com/" target="_blank" rel="noopener"><span class="app-logo baseballref">BR</span><span><strong>Baseball Reference</strong><small>Baseball stats & records</small></span><span class="arrow">›</span></a>
+<a class="app" href="https://www.basketball-reference.com/" target="_blank" rel="noopener"><span class="app-logo basketballref">BRef</span><span><strong>Basketball Reference</strong><small>Basketball stats & history</small></span><span class="arrow">›</span></a>
+<a class="app" href="https://www.pro-football-reference.com/" target="_blank" rel="noopener"><span class="app-logo footballref">PFR</span><span><strong>Pro Football Reference</strong><small>Football stats & records</small></span><span class="arrow">›</span></a>
+<a class="app" href="https://www.hockey-reference.com/" target="_blank" rel="noopener"><span class="app-logo hockeyref">HR</span><span><strong>Hockey Reference</strong><small>Hockey stats & history</small></span><span class="arrow">›</span></a>
+<a class="app" href="https://fbref.com/" target="_blank" rel="noopener"><span class="app-logo fbref">FB</span><span><strong>FBref</strong><small>Soccer stats & competition data</small></span><span class="arrow">›</span></a>
 </div></div>
 <div class="app-category"><h3 class="app-category-title">Games & Puzzles</h3><div class="apps">
 <a class="app" href="https://www.crazygames.com/" target="_blank" rel="noopener"><span class="app-logo crazy">CG</span><span><strong>CrazyGames</strong><small>Browser games</small></span><span class="arrow">›</span></a>
